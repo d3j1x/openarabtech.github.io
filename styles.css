@@ -14,7 +14,7 @@ body {
   font-style: normal;
   font-size: larger;
   font-weight: 500;
-  
+  color: #ffffff;
 }
 
 
@@ -22,7 +22,6 @@ body {
 header {
   background-color: black;
   text-align: center;
-  color: #ffffff;
   padding-block: 50px;
 }
 
@@ -37,18 +36,57 @@ header img{
 /* START MAIN */
 main {
   min-height: 60vh;
-  
 }
 
 .hero {
   background-color: #0A0E15;
   min-height: 20vh;
+  padding: 50px 20px;
 }
+
+.hero h2 {
+  margin-bottom: 50px;
+}
+
+
+
+
+.content {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.box {
+  flex: 1;
+  min-width: 200px;
+  background-color: #37404F;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.box a {
+  text-decoration: none;
+  color: greenyellow;
+}
+
+.box p {
+  color: whitesmoke;
+}
+
+.box:hover {
+  background-color: #4E5766;
+}
+
 
 .second-hero {
   background-color: #202531;
   min-height: 20vh;
 }
+
 
 .third-hero {
   background-color: #37404F;
@@ -66,7 +104,6 @@ main {
 /* START FOOTER */
 footer {
   background-color: #667085;
-  color: #ffffff;
   text-align: center;
   font-weight: bold;
   padding: 8px;
@@ -95,6 +132,23 @@ footer {
   height: 75px;
   }
 
+  .hero {
+  padding: 25px 10px;
+  }
+  .hero h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  }
+
+  .content {
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .box {
+    width: 90%;
+  }
+
   footer {
   font-size: small;
   }
@@ -107,5 +161,9 @@ footer {
 /* متجاوب: للهواتف (≤ 480px) */
 
 @media (max-width: 480px) {
- 
+  .box {
+  font-size: 1rem;
+  padding: 1.5rem;
+ }
 }
+
