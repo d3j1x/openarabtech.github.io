@@ -12,8 +12,9 @@ body {
   font-family: "Noto Kufi Arabic", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: x-large;
+  font-size: larger;
   font-weight: 500;
+  
 }
 
 
@@ -21,11 +22,12 @@ body {
 header {
   background-color: black;
   text-align: center;
-  color: white;
+  color: #ffffff;
+  padding-block: 50px;
 }
 
 header img{
-  height: 150px;
+  height: 120px;
 }
 
 /* ENDS HEADER */
@@ -38,11 +40,33 @@ main {
   
 }
 
+.hero {
+  background-color: #0A0E15;
+  min-height: 20vh;
+}
+
+.second-hero {
+  background-color: #202531;
+  min-height: 20vh;
+}
+
+.third-hero {
+  background-color: #37404F;
+  min-height: 20vh;
+}
+
+.fort-hero {
+  background-color: #4E5766;
+  min-height: 20vh;
+}
+
 /* ENDS MAIN */
 
 
 /* START FOOTER */
 footer {
+  background-color: #667085;
+  color: #ffffff;
   text-align: center;
   font-weight: bold;
   padding: 8px;
@@ -60,10 +84,16 @@ footer {
 
 @media (max-width: 768px) {
   body {
-    font-size: large;
+    font-size: medium;
   }
 
-  
+  header {
+    padding-block: 25px;
+  }
+
+  header img{
+  height: 75px;
+  }
 
   footer {
   font-size: small;
