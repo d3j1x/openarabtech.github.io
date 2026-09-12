@@ -1,0 +1,16 @@
+{
+  "name": "Open Arab Tech",
+  "short_name": "openarabtech",
+  "description": "Open Arab Tech Official Website الموقع الرسمي لمنظمة التقنية العربية المفتوحة",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff3131",
+  "icons": [
+    {
+      "src": "/assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

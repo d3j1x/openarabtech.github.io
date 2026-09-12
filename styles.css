@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Kufi Arabic", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+
+/* START HEADER */
+header {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+header img{
+  height: 150px;
+}
+
+/* ENDS HEADER */
+
+
+
+/* START MAIN */
+main {
+  min-height: 60vh;
+  
+}
+
+/* ENDS MAIN */
+
+
+/* START FOOTER */
+footer {
+  text-align: center;
+  font-weight: bold;
+  padding: 8px;
+  font-size: medium;
+}
+
+/* ENDS FOOTER */
+
+
+
+
+
+/* Responsive: for tablets and below (≤ 768px) */
+/* متجاوب: للأجهزة اللوحية وما دونها (≤ 768px) */
+
+@media (max-width: 768px) {
+  body {
+    font-size: large;
+  }
+
+  
+
+  footer {
+  font-size: small;
+  }
+
+
+}
+
+
+/* Responsive: for phones (≤ 480px) */
+/* متجاوب: للهواتف (≤ 480px) */
+
+@media (max-width: 480px) {
+ 
+}
