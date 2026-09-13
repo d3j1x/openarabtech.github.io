@@ -80,26 +80,52 @@
 
 
     <main>
+
+
       <section class="hero">
         <h2>دروس مجانية</h2>
-
-        <section class=content>
-          <section class="box">
-            <h3><a href="https://openarabtech.github.io/ComputersVerse/" target="_blank">ComputersVerse</a></h3>
-            <p>عالم الحواسيب منصة تعليمية عربية حرة ومفتوحة المصدر.</p>
+        <section>
+          <h3>تصميم الويب المتجاوب</h3>
+          <section class=content>
+            
+            <section class="box">
+              <h4><a href="https://openarabtech.github.io/ComputersVerse/" target="_blank">ComputersVerse</a></h4>
+              <p>عالم الحواسيب منصة تعليمية عربية حرة ومفتوحة المصدر.</p>
+            </section>
+            <section class="box">
+              <h4><a href="https://openarabtech.github.io/HTMLVerse/" target="_blank">HTMLVerse</a></h4>
+              <p>عالم اتش.تي.إم.إل منصة تعليمية عربية حرة ومفتوحة المصدر.</p>
+            </section>
+            <section class="box">
+              <h4><a href="https://openarabtech.github.io/CSSVerse/" target="_blank">CSSVerse</a></h4>
+              <p>عالم سي.اس.اس منصة تعليمية عربية حرة ومفتوحة المصدر.</p>
+            </section>
           </section>
-          <section class="box">
-            <h3><a href="https://openarabtech.github.io/HTMLVerse/" target="_blank">HTMLVerse</a></h3>
-            <p>عالم اتش.تي.إم.إل منصة تعليمية عربية حرة ومفتوحة المصدر.</p>
-          </section>
-          <section class="box">
-            <h3><a href="https://openarabtech.github.io/CSSVerse/" target="_blank">CSSVerse</a></h3>
-            <p>عالم سي.اس.اس منصة تعليمية عربية حرة ومفتوحة المصدر.</p>
-          </section>
-        </section>
+        </section>        
       </section>
+
+      <section class="support-section"> 
+        <div class="support-container"> 
+          <div class="support-icon">💚</div> 
+          <span class="support-label">ادعم التقنية العربية</span> 
+          <h2>ساهم معنا في بناء مستقبل التقنية العربية</h2> 
+          <p> دعمك يساعدنا على تطوير مشاريع مفتوحة المصدر وإنشاء محتوى تقني عربي مجاني للجميع. </p> 
+          <div class="donation-card"> 
+            <div class="donation-header"> 
+              <span>💰 التبرع عبر USDT</span> 
+              <span class="network">TRC20</span> 
+            </div>  
+            <div class="wallet-box"> 
+              <span id="wallet">TRuuZPtZSLY1J6jUwo9gmkTf2ZjadU4Rxh</span> 
+              <button onclick="copyWallet()" aria-label="نسخ عنوان المحفظة"> 📋 نسخ </button> 
+            </div> 
+            <small> تأكد من اختيار شبكة <strong>TRC20</strong> عند إرسال USDT. </small> 
+          </div> <p class="thank-you"> كل مساهمة، مهما كانت صغيرة، تصنع فرقًا. 💚 </p> 
+        </div> 
+      </section>
+        
       
-      <section class="second-hero">
+      <!-- <section class="second-hero">
 
       </section>
 
@@ -109,7 +135,7 @@
 
       <section class="fort-hero">
 
-      </section>
+      </section> -->
 
       
     </main>
@@ -122,7 +148,7 @@
 
     <!--Start Footer-->
     <footer>
-      <p>جميع الحقوق محفوظة <span dir="ltr">OPEN ARAB TECH 2026 - 2027 ©</span></p>
+      <p dir="ltr">OPEN ARAB TECH © 2026 - 2027</p>
     </footer>
     <!--Ends Footer-->
 
@@ -132,6 +158,17 @@
 
 
 
+
+  <script> 
+    function copyWallet() { 
+      const wallet = document.getElementById("wallet").textContent.trim(); 
+      navigator.clipboard.writeText(wallet).then(() => { 
+        const button = document.querySelector(".wallet-box button"); 
+        button.textContent = "✓ تم النسخ"; 
+        setTimeout(() => { button.textContent = "📋 نسخ"; }, 2000); 
+      }); 
+    } 
+  </script>
 
 
   </body>
