@@ -22,17 +22,29 @@ body {
 header {
   background-color: #080d0b;
   text-align: center;
-  padding-block: 50px;
+  padding-block: 25px;
   
 }
 
-header img{
+header #logo{
   height: 120px;
+  border-radius: 50%;
 }
 
 header p {
   color: #9ca3af;
+  margin-bottom: 10px;
 }
+
+
+header a img {
+  width: 24px;
+  height: 24px;
+  filter: invert(1);
+}
+
+
+
 
 /* ENDS HEADER */
 
@@ -262,7 +274,7 @@ footer {
     padding-block: 25px;
   }
 
-  header img{
+  header #logo{
   height: 75px;
   }
 
