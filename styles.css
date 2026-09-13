@@ -20,9 +20,10 @@ body {
 
 /* START HEADER */
 header {
-  background-color: black;
+  background-color: #080d0b;
   text-align: center;
   padding-block: 50px;
+  
 }
 
 header img{
@@ -86,6 +87,12 @@ main {
   font-weight: 400;
 }
 
+.box .detail {
+  font-weight: 300;
+  font-size: medium;
+  color: #9ca3af;
+}
+
 .box:hover {
   background-color: #080d0b;
 }
@@ -109,7 +116,7 @@ main {
 
 .support-section { 
   padding: 80px 20px; 
-  background: #202531; 
+  background: #080d0b; 
   color: #f1f5f3; 
 } 
 .support-container { 
@@ -163,7 +170,8 @@ main {
   justify-content: space-between; 
   align-items: center; 
   margin-bottom: 18px; 
-  font-weight: 700; } 
+  font-weight: 700; 
+} 
   .network { 
     padding: 5px 10px; 
     border-radius: 8px; 
@@ -185,7 +193,7 @@ main {
     padding: 10px; 
     color: #b8c7be; 
     font-family: monospace; 
-    font-size: 17px; 
+    font-size: 20px; 
     direction: ltr; 
     text-align: left; 
     overflow-wrap: anywhere; 
@@ -293,6 +301,10 @@ footer {
   .wallet-box button { 
     width: 100%; 
   }
+
+  .wallet-box span { 
+    font-size: 13px; 
+  } 
 
   footer {
   font-size: small;

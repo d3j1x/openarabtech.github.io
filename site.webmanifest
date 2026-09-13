@@ -4,8 +4,8 @@
   "description": "معًا نصنع مستقبل التقنية العربية",
   "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ff3131",
+  "background_color": "#080d0b",
+  "theme_color": "#22c55e",
   "icons": [
     {
       "src": "/assets/OpenArabTechLogo.png",
