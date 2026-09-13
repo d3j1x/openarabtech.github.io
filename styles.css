@@ -36,8 +36,24 @@ header p {
   margin-bottom: 10px;
 }
 
+.social-links{
+  display: flex;
+  justify-content: center;
+}
 
-header a img {
+.social-links a {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.social-links a:hover {
+  background-color: black;
+}
+
+
+.social-links a img {
+  margin: auto;
   width: 24px;
   height: 24px;
   filter: invert(1);
@@ -57,8 +73,7 @@ main {
 
 .hero {
   background-color: #0A0E15;
-  min-height: 20vh;
-  padding: 100px 20px;
+  padding: 80px 20px;
 }
 
 .hero h2 {
